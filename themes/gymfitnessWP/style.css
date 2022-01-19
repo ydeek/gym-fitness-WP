@@ -17,8 +17,26 @@
     --mainFont: 'Staatliches', cursive;
     --textFont: 'Open Sans', sans-serif;
     --secondaryFont:'Raleway', sans-serif;
+
+    /** Colors **/
+
+    --primary: #ff5b00;
+    --darkGray: #2f2e2e;
+    --lightGray: #ebebeb;
+
+    --white: #fff;
+    --black: #0000;
+
 }
 
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
 
 body {
     font-family: var(--textFont);
